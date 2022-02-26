@@ -1,0 +1,202 @@
+/**********DEFUALT CSS **************/
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fixed-width{
+    width: 1020px;
+    margin: auto;
+
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+/* ***********HEADER CSS************ */
+.header-secton{
+    background: #3498db;
+}
+.header-left{
+    width: 30%;
+    float: left;
+}
+.header-left img{
+    width: 150px;
+}
+.header-right{
+width: 70%;
+float: right;
+}
+.header-right ul {
+    text-align: right;
+   
+}
+.header-right ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: -4px;
+
+}
+.header-right ul li a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 25px;
+    line-height: 56px;
+    border-right: 1px solid #fff;
+    transition: .5s;
+}
+.header-right ul li a:hover {
+    background: #2980b9;
+}
+/***************BENNER CSS***************/
+.benner-secton{
+    background: url(https://smartslider3.com/wp-content/uploads/2019/01/photo_slideshow.jpg) no-repeat top center;
+    padding:200px 0;
+    background-size: cover;
+    text-align: center;
+}
+.benner-secton h2 {
+    font-size: 33px;
+    background: #00000054;
+    display: inline;
+    border-radius: 5px;
+    padding: 3px 14px;
+}
+.benner-secton h1 {
+    background: #3498db60;
+    font-size: 40px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 6px 0;
+    margin-top: 25px;
+}
+/****************About section************** */
+.about-section {
+    margin-top: 25px;
+}
+.about-section h1 {
+    font-size: 48px;
+}
+.about-section p {
+    font-size: 20px;
+    max-width: 663px;
+    margin: auto;
+}
+/*************Service section css**************** */
+.service-section{
+    margin-top: 60px;
+}
+.service-item{
+    width: 31.3%;
+    float: left;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-right: 2%;
+}
+.service-item h2{
+    margin:10px 0;
+    font-size: 30px;
+}
+.service-item p {
+    font-size: 18px;
+    line-height: 20px;
+}
+.service-item span {
+    font-size: 24px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #34b3d9;
+    display: block;
+    /* text-align: center; */
+    margin: auto;
+    line-height: 50px;
+    border-radius: 20px 0 20px 0;
+}
+/* Blog section */
+.blog-section{
+    margin-top: 50px;
+}
+
+.blog-left-content{
+    width: 70%;
+    float: left;
+}
+.blog-item {
+    margin-bottom: 30px;
+}
+.blog-item img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 30px;
+
+}
+.blog-item p {
+    font-size: 17px;
+    text-align: justify;
+}
+.blog-right-notification{
+    width: 25%;
+    float: right;
+    margin-left: 5%;
+}
+.blog-right-notification h2 {
+    font-size: 40px;
+    border-bottom: 1px solid #767676;
+    padding: 5px 0;
+    margin-bottom: 15px;
+}
+.blog-right-notification ul li {
+    list-style: none;
+    border: 1px solid #ddd;
+    padding: 11px  14px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+/* **************Footer section css***************** */.footer-section{
+    background: #2c3e50;
+    color: #fff;
+    padding: 8px 0;
+}
+.footer-left{
+    float: left;
+    width: 60%;
+}
+.footer-right{
+    float: right;
+    width: 40%;
+}
+.social-menu{}
+.social-menu ul{
+
+}
+.footer-right li {
+    display: inline-block;
+}
+.footer-right a {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 9px;
+}
